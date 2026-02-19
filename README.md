@@ -6,7 +6,7 @@ pip install requests
 2. Rode o script:
 python projetoanalise.py
 3. Digite a URL que deseja analisar
-#Headers verificados
+- Headers verificados
 - Strict-Transport-Security
 - Content-Security-Policy
 - X-Frame-Options
