@@ -1,5 +1,5 @@
 import requests
-# Headers de segurança comuns para verificar
+# Lista principais headers
 HEADERS_SEGURANCA = [
     "Strict-Transport-Security",
     "Content-Security-Policy",
@@ -16,3 +16,4 @@ for header in HEADERS_SEGURANCA:
         print(f"[OK] {header}: presente")
     else:
         print(f"[AUSENTE] {header}: ausente")
+
